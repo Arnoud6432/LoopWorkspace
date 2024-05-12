@@ -241,7 +241,7 @@ jobs:
           echo "Downloading code to support xdrip-client-swift"
           git clone https://github.com/johandegraeve/xdrip-client-swift-1.git xdrip-client-swift
           echo "checking out the xdrip-client-swift commit that works with Loop 3.2.3"
-          cd xdrip-client-swift; git checkout 6286f61a61a9794179f551f076c3b2b0ec127dac; cd ..
+          cd xdrip-client-swift; git checkout 22ef96e; cd ..
           echo "Downloading code to support GlucoseDirectClient" 
           git clone https://github.com/creepymonster/GlucoseDirectClient.git GlucoseDirectClient
           echo "checking out the GlucoseDirectClient commit that works with Loop 3.2.3"
