@@ -259,7 +259,9 @@ jobs:
           #   the line following a "\" cannot be blank - that causes the Action to never complete
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
-          now_line
+          now_line \
+          basal_lock \
+          live_activity
 
           # LoopWorkspace patches
           # -applies any patches located in the LoopWorkspace/patches/ directory
