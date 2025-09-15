@@ -269,7 +269,6 @@ jobs:
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
           now_line \
           basal_lock \
-          live_activity \
           watch_title
 
           # LoopWorkspace patches
